@@ -3,36 +3,18 @@
   position: relative;
 }
 
-/* Insert content before the container's content */
 #container::before {
-  content: "Special Text Before";
+  content: "Before Element";
   color: #f00;
   font-size: 20px;
   display: block;
   margin-bottom: 10px;
 }
 
-/* Insert content after the container's content */
 #container::after {
-  content: "Special Text After";
-  color: #f00;
-  font
-#container {
-  margin: 20px;
-  position: relative;
-}
-
-/* Insert content before the container's content */
-#container::before {
-  content: "Special Text Before";
+  content: "After Element";
   color: #f00;
   font-size: 20px;
   display: block;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
-
-/* Insert content after the container's content */
-#container::after {
-  content: "Special Text After";
-  color: #f00;
-  font
